@@ -148,6 +148,58 @@ Viết chương trình Python đọc từ file **csv** và in ra **chiều dài 
 
 -----
 
+# Iris2
+
+Dữ liệu về hoa được lưu trữ trong tệp “iris.csv” có cấu trúc như hình:
+
+```csv
+sepal_length,sepal_width,petal_length,petal_width,species
+5.1,3.5,1.4,0.2,setosa
+4.9,3.0,1.4,0.2,setosa
+4.7,3.2,1.3,0.2,setosa
+4.6,3.1,1.5,0.2,setosa
+5.0,3.6,1.4,0.2,setosa
+5.4,3.9,1.7,0.4,setosa
+4.6,3.4,1.4,0.3,setosa
+5.0,3.4,1.5,0.2,setosa
+...
+```
+
+**Trong đó:**
+
+  * Giá trị `sepal_length` là chiều dài của đài hoa
+  * Giá trị `sepal_width` là chiều rộng của đài hoa
+  * Giá trị `petal_length` là chiều dài của cánh hoa
+  * Giá trị `petal_width` là chiều rộng của cánh hoa
+  * Giá trị `Species` là tên loài.
+
+### Yêu cầu Bài toán
+
+Đọc dữ liệu từ file csv và in ra thống kê (min, max, sum, avg) theo chiều dài `x` của loài `y` cho trước. Nếu loài `y` hoặc tên chiều dài `x` không có trong tệp dữ liệu thì in ra “Invalid”.
+
+### INPUT:
+
+  * Dòng đầu ghi số bộ test.
+  * Các dòng tiếp theo, mỗi dòng ghi tên loài (species) `y`, tên chiều dài `x` và chỉ số cần thống kê (`min`, `max`, `sum`, `avg`).
+
+### OUTPUT:
+
+  * In ra giá trị tính được. Nếu giá trị là float thì làm tròn đến 2 chữ số sau dấu phẩy.
+
+### Ví dụ:
+
+| Input | Output |
+| :--- | :--- |
+| 2 |  |
+| virginica sepal\_length avg | 6.59 |
+| sunflower petal\_length max | Invalid |
+
+**Giải thích:**
+
+  * **Test 1:** trung bình chiều dài cánh hoa (sepal\_length) của loài virginica là 6.59
+  * **Test 2:** loài sunflower không có trong tệp dữ liệu -\> Invalid
+
+-----
 # Penguins1 (Thống kê Kích thước Mỏ và Cánh)
 
 File **`penguins.csv`** lưu trữ thông tin về các loài chim cánh cụt đang ở trên các đảo bao gồm các thông tin:

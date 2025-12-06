@@ -1,0 +1,6 @@
+5
+tulip petal_length max
+setosa root_depth min
+versicolor leaf_area sum
+orchid sepal_width avg
+virginica sepal_width avg

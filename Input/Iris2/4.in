@@ -1,0 +1,8 @@
+7
+virginica sepal_length sum
+virginica sepal_width sum
+virginica petal_length sum
+virginica petal_width sum
+versicolor sepal_length avg
+setosa petal_width avg
+setosa sepal_length avg

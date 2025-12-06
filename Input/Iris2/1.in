@@ -1,0 +1,13 @@
+12
+versicolor petal_length max
+setosa petal_length sum
+virginica sepal_width min
+cactus needle_length avg
+versicolor sepal_width max
+virginica sepal_length avg
+setosa petal_width sum
+lotus petal_length min
+versicolor sepal_length min
+virginica petal_width max
+setosa sepal_width avg
+virginica color max

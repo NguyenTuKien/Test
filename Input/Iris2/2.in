@@ -1,0 +1,9 @@
+8
+setosa sepal_width avg
+versicolor sepal_length sum
+virginica petal_length max
+setosa stem_length min
+versicolor petal_width avg
+virginica root_size sum
+setosa petal_length min
+daisy sepal_width max
